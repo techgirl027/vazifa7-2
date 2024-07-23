@@ -5,5 +5,6 @@ from django.urls import path
 
 
 urlpatterns = [
-    path("", home_page),
+    path("", home_page, name="home"),
+    path("register/", register_page, name="register"),
 ]
