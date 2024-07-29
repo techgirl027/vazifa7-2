@@ -33,3 +33,7 @@ def login(request):
     if username:
         return redirect(request, home_page)
     return redirect(request, register_page)
+
+
+def product_create(request):
+    return render()

@@ -10,4 +10,5 @@ urlpatterns = [
     path("register/", register_page, name="register"),
     path("authentication/", include("app.authentication.urls")),
     path("back-office/", include("app.back-office.urls")),
+    path("user/", include("app.user.urls")),
 ]
